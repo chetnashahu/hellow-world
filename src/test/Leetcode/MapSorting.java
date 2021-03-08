@@ -22,7 +22,7 @@ public class MapSorting {
         hm.put("Java", 95);
         hm.put("Operating System", 79);
         hm.put("Networking", 80);
-        //Map<String, Integer> hm1 = sortByKey(hm);
+        Map<String, Integer> hm1 = sortByKey(hm);
 
         int[] nums = {1,1,2,2,2,3,7,8,9};
         HashMap<Integer, Integer> hmn = new HashMap<Integer, Integer>();
